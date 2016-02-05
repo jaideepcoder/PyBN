@@ -40,7 +40,7 @@ class BayesianNetwork(object):
                                     aggfunc=[np.sum])
 
 
-graph = [('AAGE', ['ACLSWKR', 'ADTIND'])]
+graph = [('AAGE', ['ACLSWKR', 'ADTIND']), ('ARACE', ['AAGE'])]
 
 columns = ['AAGE', 'ACLSWKR', 'ADTIND', 'ADTOCC', 'AHGA', 'AHRSPAY', 'AHSCOL',
 'AMARITL', 'AMJIND', 'AMJOCC', 'ARACE', 'AREORGN', 'ASEX', 'AUNMEM', 'AUNTYPE',
