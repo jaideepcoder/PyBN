@@ -2,3 +2,5 @@
 
 # PyBN
 A python project to implement Bayesian network inference from data.
+
+Edit: I am no longer maintaining this repository
